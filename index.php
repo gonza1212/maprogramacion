@@ -38,6 +38,9 @@ if ($partesRuta[0] == 'ma-programacion') {
             case 'ubicacion':
                 $rutaElegida = 'vistas/ubicacion.php';
                 break;
+            case 'mail':
+                $rutaElegida = 'vistas/enviar-mail.php';
+                break;
         }
     } else if (count($partesRuta) == 3) {
         

@@ -15,6 +15,7 @@ define("RUTA_PORTFOLIO", SERVIDOR . "/portfolio");
 define("RUTA_QUIENES_SOMOS", SERVIDOR . "/quienes-somos");
 define("RUTA_SERVICIOS", SERVIDOR . "/servicios");
 define("RUTA_UBICACION", SERVIDOR . "/ubicacion");
+define("RUTA_MAIL", SERVIDOR . "/mail");
 
 //Recursos
 define('RUTA_CSS', SERVIDOR . '/css/');

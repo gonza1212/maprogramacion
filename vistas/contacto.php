@@ -1,10 +1,12 @@
 <?php
-$titulo = "Contacto";
+$titulo = "MA Programación Diseño y Programación de Sitios Web - Contacto";
 include_once 'plantillas/declaracion.inc.php';
 include_once 'plantillas/navbar.inc.php';
 
 $header = 'Contacto';
+$header_sm = 'Contacto';
 $parrafo = '';
+$parrafo_sm = '';
 
 include_once 'plantillas/jumbotron.inc.php';
 ?>
@@ -12,15 +14,20 @@ include_once 'plantillas/jumbotron.inc.php';
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8">
-			<div class="panel panel-default">
+ 			<div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="text-white"><i class="fas fa-edit"></i> Escríbenos</h4>
                 <br>
             </div>
             <div class="panel-body">
-                <form role="form">
+                <form role="form" method="post" action="<?php echo RUTA_CONTACTO; ?>">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nombre *" required="">
+                        <?php
+                        if(isset($_POST['enviar'])) {
+                            include_once('envio.php');
+                        }
+                        ?>
+                        <input type="text" class="form-control" placeholder="Nombre *" required>
                         <br>
                         <input type="email" class="form-control" placeholder="email *" required="">
                         <br>
@@ -30,7 +37,7 @@ include_once 'plantillas/jumbotron.inc.php';
                         <label class="text-secondary"><small>Los campos marcados con * son obligatorios</small></label>
                         <br>
                         <button type="reset" class="btn hvr-bounce-to-right">Limpiar</button>
-                        <button type="submit" class="btn hvr-bounce-to-left">Enviar</button>
+                        <button type="submit" name="enviar" class="btn hvr-bounce-to-left">Enviar</button>
                     </div>
                 </form>
             </div>

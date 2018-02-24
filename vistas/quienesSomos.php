@@ -1,5 +1,5 @@
 <?php
-$titulo = "Quiénes Somos";
+$titulo = "MA Programación Diseño y Programación de Sitios Web - Quiénes Somos";
 include_once 'plantillas/declaracion.inc.php';
 include_once 'plantillas/navbar.inc.php';
 

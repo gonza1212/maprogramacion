@@ -20,14 +20,14 @@
   position: relative;
   top: 0;
   left: 0;
-  background-color: lightskyblue;
+  background-color: gray;
 }
 .carousel-inner {
-  background-color: pink;
+  background-color: gray;
   height: 100%;
 }
 .carousel-item {
-  background-color: yellow;
+  background-color: gray;
   opacity .5;
 }
 a.carousel-control-next:link, a.carousel-control-prev:link {

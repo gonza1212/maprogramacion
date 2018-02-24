@@ -1,5 +1,5 @@
 <?php
-$titulo = "Planes";
+$titulo = "MA Programación Diseño y Programación de Sitios Web - Planes";
 include_once 'plantillas/declaracion.inc.php';
 include_once 'plantillas/navbar.inc.php';
 

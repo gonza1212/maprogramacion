@@ -5,7 +5,9 @@ include_once 'plantillas/declaracion.inc.php';
 include_once 'plantillas/navbar.inc.php';
 
 $header = 'MA Programación';
+$header_sm = 'MA-P';
 $parrafo = 'Diseño y Programación de Sitios y Sistemas Web.';
+$parrafo_sm = 'Sistemas Web';
 
 include_once 'plantillas/jumbotron.inc.php';
 ?>
@@ -13,7 +15,7 @@ include_once 'plantillas/jumbotron.inc.php';
 <div class="container-fluid container-home-1">
   <div class="row">
   <div class="col">
-      <div class="ih-item circle effect6 scale_up"><a href="#">
+    <div class="ih-item circle effect6 scale_up"><a href="#">
         <div class="img"><img src="<?php echo RUTA_IMG; ?>responsive-design.jpg" alt="img"></div>
         <div class="info">
           <h3>Responsive Design</h3>
@@ -49,13 +51,13 @@ include_once 'plantillas/jumbotron.inc.php';
 <div class="container-fluid container-home-2">
 	<div class="row">
 		<div class="col-12 text-right">
-		<h2 class="distintos-planes">
-			Distintos planes para distintas necesidades
-		</h2>
+      <div class="d-md-none d-lg-none d-xl-none d-sm-none"><h2 class="distintos-planes">Distintos planes</h2></div>
+		<div class="d-none d-sm-block"><h2 class="distintos-planes">Distintos planes para distintas necesidades</h2></div>
 		<br>
 		<p>Páginas a bajo costo y en pocos días o hechas a medida según los requerimientos y necesidades del cliente, Sitios de publicidad o Aplicaciones de Gestión, Hosting por parte del cliente o Planes de mantenimiento mensual con Hosting y Dominio incluidos.</p>
 		<br>
-		<a href="<?php echo RUTA_PLANES; ?>" class="btn hvr-sweep-to-right">Ver más detalles</a>
+    <div class="d-md-none d-lg-none d-xl-none d-sm-none"><a href="<?php echo RUTA_PLANES; ?>" class="btn btn-sm hvr-sweep-to-right">Ver más</a></div>
+		<div class="d-none d-sm-block"><a href="<?php echo RUTA_PLANES; ?>" class="btn hvr-sweep-to-right">Ver más detalles</a></div>
 		</div>
 	</div>
 </div>
@@ -80,7 +82,8 @@ include_once 'plantillas/jumbotron.inc.php';
   <div class="container-fluid container-home-3" id="servicios-hover">
   <div class="row">
     <div class="col">
-    <h3 class="titulo-sombra">Sistemas de Administración</h3>
+      <div class="d-md-none d-lg-none d-xl-none d-sm-none"><h3 class="titulo-sombra">Sist. de Admin.</h3></div>
+    <div class="d-none d-sm-block"><h3 class="titulo-sombra">Sistemas de Administración</h3></div>
     <hr>
     <p class="text-justify">Diseño y creación de sistemas de administración en entornos de escritorio o entornos web, dirigido principalmente a pequeñas y medianas empresas, negocios que están empezando y dueños que necesitan un sistema para agilizar ciertos procesos pero no desean invertir demasiado en herramientas informáticas.</p>
     </div>

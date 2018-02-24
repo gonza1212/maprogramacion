@@ -4,7 +4,7 @@ sepan que si llegaron hasta esta parte, el enlace que siguieron es invalido.
  * Basicamente este metodo envia un codigo al navegador o al cliente */
 header($_SERVER['SERVER_PROTOCOL'] . '404 Not Found', true, 404);
 
-$titulo = 'Error 404';
+$titulo = 'MA Programación Diseño y Programación de Sitios Web Error 404';
 
 include_once 'plantillas/declaracion.inc.php';
 include_once 'plantillas/navbar.inc.php';
