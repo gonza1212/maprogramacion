@@ -14,8 +14,8 @@ include_once 'app/config.inc.php';
 	<meta charset="UTF-8">
 	<meta name="google-site-verification" content="5kb05QDqhvLiIA8Mu8PkMuDBSbJ86R7DjSJKgKWHb50" />
 	<meta name="title" content="<?php echo $titulo ?>">
-	<meta name="description" content="Diseño de Sitios Web, Programación de Sistemas Web y de Escritorio, Hosting y Dominio incluidos, Planes y Servicios accesibles, Software a medida">
-	<meta name="keywords" content="websites, software a medida, diseño, programación, hosting, dominio">
+	<meta name="description" content="Diseño de Sitios Web, Sistemas Web y de Escritorio, Hosting y Dominio incluidos, Software a medida, Servicios Web en Chubut, Diseño Web en Puerto Madryn">
+	<meta name="keywords" content="websites, software a medida, diseño web, puerto madryn">
 	<meta name="ROBOTS" content="INDEX, FOLLOW">
 	<meta name="geo.region" content="AR-U" />
 	<meta name="geo.placename" content="Puerto Madryn" />
